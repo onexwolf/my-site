@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a [routerLink]="['/notes']">
+    Notes
+  </a>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #drawer class="sidenav" [attr.role]="isHandset ? 'dialog' : 'navigation'"
+    [mode]="isHandset ? 'over' : 'side'" [opened]="!isHandset" (click)="tryToClose(drawer)">
+    <app-nav-node [data]="notes"></app-nav-node>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

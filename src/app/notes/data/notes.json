@@ -1,0 +1,129 @@
+{
+  "path": "./src/assets/notes",
+  "name": "notes",
+  "children": [
+    {
+      "path": "src/assets/notes/.DS_Store",
+      "name": ".DS_Store",
+      "size": 6148,
+      "extension": "",
+      "type": "file"
+    },
+    {
+      "path": "src/assets/notes/JavaScript",
+      "name": "JavaScript",
+      "children": [
+        {
+          "path": "src/assets/notes/JavaScript/.DS_Store",
+          "name": ".DS_Store",
+          "size": 8196,
+          "extension": "",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/ES6",
+          "name": "ES6",
+          "children": [
+            {
+              "path": "src/assets/notes/JavaScript/ES6/Set Map.md",
+              "name": "Set Map.md",
+              "size": 14548,
+              "extension": ".md",
+              "type": "file"
+            }
+          ],
+          "size": 14548,
+          "type": "directory"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之 Event Loop.md",
+          "name": "JavaScript 深入之 Event Loop.md",
+          "size": 1569,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之 call 和 apply.md",
+          "name": "JavaScript 深入之 call 和 apply.md",
+          "size": 6308,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之 new 操作符.md",
+          "name": "JavaScript 深入之 new 操作符.md",
+          "size": 6550,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之从原型到原型链.md",
+          "name": "JavaScript 深入之从原型到原型链.md",
+          "size": 4605,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之模拟实现 bind.md",
+          "name": "JavaScript 深入之模拟实现 bind.md",
+          "size": 6815,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript 深入之闭包.md",
+          "name": "JavaScript 深入之闭包.md",
+          "size": 2305,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/JavaScript数组常用技巧.md",
+          "name": "JavaScript数组常用技巧.md",
+          "size": 2824,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/介绍下 Set、Map、WeakSet 和 WeakMap 的区别.md",
+          "name": "介绍下 Set、Map、WeakSet 和 WeakMap 的区别.md",
+          "size": 8428,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/手写Promise.md",
+          "name": "手写Promise.md",
+          "size": 7139,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/数组去重.md",
+          "name": "数组去重.md",
+          "size": 3173,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/柯里化.md",
+          "name": "柯里化.md",
+          "size": 3657,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/JavaScript/深浅拷贝.md",
+          "name": "深浅拷贝.md",
+          "size": 7269,
+          "extension": ".md",
+          "type": "file"
+        }
+      ],
+      "size": 83386,
+      "type": "directory"
+    }
+  ],
+  "size": 89534,
+  "type": "directory"
+}

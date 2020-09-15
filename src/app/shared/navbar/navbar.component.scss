@@ -1,0 +1,33 @@
+.navbar-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.docs-angular-logo {
+  height: 26px;
+  margin: 0 4px 3px 0;
+  vertical-align: middle;
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
+.navbar-show-small {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .navbar-show-small {
+    display: flex;
+    > a {
+      flex-grow: 1;
+    }
+  }
+
+  .navbar-hide-small {
+    display: none;
+  }
+}
