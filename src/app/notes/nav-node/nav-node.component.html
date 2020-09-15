@@ -1,18 +1,19 @@
-<ng-container *ngFor="let item of data.children;index as index">
-  <mat-list-item *ngIf="item.type === 'file'" mat-list-item routerLinkActive="active"
-    [routerLink]="['/notes', item.name]">
-    <div class="title" [title]="item.name">
-      <span>{{item.name}}</span>
+<mat-nav-list>
+  <ng-container *ngFor="let item of data.children;index as index">
+    <a *ngIf="item.type === 'file'" mat-list-item routerLinkActive="active" [routerLink]="['/notes', item.name]">
+      <div class="title" [title]="item.name">
+        <span>{{item.name}}</span>
+      </div>
+    </a>
+    <div *ngIf="item.type === 'directory'">
+      <mat-list-item appToggle [isOn]="isActiveGroup(item)" [class.active]="isActiveGroup(item)" #toggle="appToggle">
+        <a class="title" [title]="item.name" [routerLink]="['/notes', item.name]">{{item.name}}</a>
+        <mat-icon *ngIf="toggle.isOn" (click)="toggle.toggle()">expand_more</mat-icon>
+        <mat-icon *ngIf="toggle.isOff" (click)="toggle.toggle()">chevron_right</mat-icon>
+      </mat-list-item>
+      <div *ngIf="toggle.isOn">
+        <app-nav-node [data]="item"></app-nav-node>
+      </div>
     </div>
-  </mat-list-item>
-  <div *ngIf="item.type === 'directory'">
-    <mat-list-item appToggle [isOn]="isActiveGroup(item)" [class.active]="isActiveGroup(item)" #toggle="appToggle">
-      <a class="title" [title]="item.name" [routerLink]="['/notes', item.name]">{{item.name}}</a>
-      <mat-icon *ngIf="toggle.isOn" (click)="toggle.toggle()">expand_more</mat-icon>
-      <mat-icon *ngIf="toggle.isOff" (click)="toggle.toggle()">chevron_right</mat-icon>
-    </mat-list-item>
-    <div *ngIf="toggle.isOn">
-      <app-nav-node [data]="item"></app-nav-node>
-    </div>
-  </div>
-</ng-container>
+  </ng-container>
+</mat-nav-list>

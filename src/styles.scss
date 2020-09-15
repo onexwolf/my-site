@@ -1,10 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-@import './app-theme';
-
+@import "./app-theme";
 
 @include angular-material-theme($theme);
 @include material-docs-app-theme($theme);
+
+a,
+input,
+li,
+ol,
+p,
+ul {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444;
+}

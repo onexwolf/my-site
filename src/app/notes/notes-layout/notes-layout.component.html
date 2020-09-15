@@ -2,9 +2,9 @@
   <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset">
     <mat-icon>menu</mat-icon>
   </button>
-  <a [routerLink]="['/notes']">
+  <h1 [routerLink]="['/notes']">
     Notes
-  </a>
+  </h1>
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav #drawer class="sidenav" [attr.role]="isHandset ? 'dialog' : 'navigation'"
