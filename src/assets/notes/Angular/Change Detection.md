@@ -20,7 +20,7 @@
 3. 变更检测由上而下检查组件树中的每一个组件，来查看该组件相应的 model 是否已更改
 4. 如果组件中的 model 有一个新值，就会更新组件的视图（DOM）
 
-![](../Angular/images/cd-default.gif)
+![](../../../assets/notes/Angular/images/cd-default.gif)
 
 图片显示了 Angular 组件树及其在应用程序引导过程中为每个组件创建的更改检测器（CD）。 该检测器将当前值与属性的先前值进行比较。 如果该值已更改，它将 `isChanged` 设置为 true。Check out [the implementation in the framework code](https://github.com/angular/angular/blob/885f1af509eb7d9ee049349a2fe5565282fbfefb/packages/core/src/util/comparison.ts#L13) which is just a `===` comparison with special handling for `NaN`.
 
@@ -74,7 +74,7 @@ export class HeroCard {
 
 这种更改检测策略可以跳过对此组件及其所有子组件的不必要检查。
 
-![](../Angular/images/cd-onpush.gif)
+![](../../../assets/notes/Angular/images/cd-onpush.gif)
 
 使用这种策略时，Angular 仅在以下情况下才需要更新组件：
 
