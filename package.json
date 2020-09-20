@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:docs": "ts-node build/build.ts",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

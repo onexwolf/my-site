@@ -3,6 +3,87 @@
   "name": "notes",
   "children": [
     {
+      "path": "src/assets/notes/Angular",
+      "name": "Angular",
+      "children": [
+        {
+          "path": "src/assets/notes/Angular/Change Detection.md",
+          "name": "Change Detection.md",
+          "size": 3908,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/Angular/RxJS",
+          "name": "RxJS",
+          "children": [
+            {
+              "path": "src/assets/notes/Angular/RxJS/概览.md",
+              "name": "概览.md",
+              "size": 1651,
+              "extension": ".md",
+              "type": "file"
+            }
+          ],
+          "size": 1651,
+          "type": "directory"
+        },
+        {
+          "path": "src/assets/notes/Angular/Schmetics",
+          "name": "Schmetics",
+          "children": [
+            {
+              "path": "src/assets/notes/Angular/Schmetics/1. Angular Schematics 概览.md",
+              "name": "1. Angular Schematics 概览.md",
+              "size": 2512,
+              "extension": ".md",
+              "type": "file"
+            },
+            {
+              "path": "src/assets/notes/Angular/Schmetics/2. 创作原理图.md",
+              "name": "2. 创作原理图.md",
+              "size": 3292,
+              "extension": ".md",
+              "type": "file"
+            },
+            {
+              "path": "src/assets/notes/Angular/Schmetics/3. 库的原理图.md",
+              "name": "3. 库的原理图.md",
+              "size": 2626,
+              "extension": ".md",
+              "type": "file"
+            }
+          ],
+          "size": 8430,
+          "type": "directory"
+        }
+      ],
+      "size": 13989,
+      "type": "directory"
+    },
+    {
+      "path": "src/assets/notes/CSS",
+      "name": "CSS",
+      "children": [
+        {
+          "path": "src/assets/notes/CSS/CSS 中的指定值、初始值、计算值.md",
+          "name": "CSS 中的指定值、初始值、计算值.md",
+          "size": 1934,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/CSS/position.md",
+          "name": "position.md",
+          "size": 1947,
+          "extension": ".md",
+          "type": "file"
+        }
+      ],
+      "size": 3881,
+      "type": "directory"
+    },
+    {
       "path": "src/assets/notes/JavaScript",
       "name": "JavaScript",
       "children": [
@@ -24,7 +105,7 @@
         {
           "path": "src/assets/notes/JavaScript/JavaScript 深入之 Event Loop.md",
           "name": "JavaScript 深入之 Event Loop.md",
-          "size": 1569,
+          "size": 1606,
           "extension": ".md",
           "type": "file"
         },
@@ -71,8 +152,8 @@
           "type": "file"
         },
         {
-          "path": "src/assets/notes/JavaScript/介绍下 Set、Map、WeakSet 和 WeakMap 的区别.md",
-          "name": "介绍下 Set、Map、WeakSet 和 WeakMap 的区别.md",
+          "path": "src/assets/notes/JavaScript/Set、Map、WeakSet 和 WeakMap 的区别.md",
+          "name": "Set、Map、WeakSet 和 WeakMap 的区别.md",
           "size": 8428,
           "extension": ".md",
           "type": "file"
@@ -106,10 +187,61 @@
           "type": "file"
         }
       ],
-      "size": 75190,
+      "size": 75227,
+      "type": "directory"
+    },
+    {
+      "path": "src/assets/notes/Node",
+      "name": "Node",
+      "children": [
+        {
+          "path": "src/assets/notes/Node/Node.js 中的异步发展史.md",
+          "name": "Node.js 中的异步发展史.md",
+          "size": 2192,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/Node/npm模块安装机制.md",
+          "name": "npm模块安装机制.md",
+          "size": 4110,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/Node/初识 Node.js.md",
+          "name": "初识 Node.js.md",
+          "size": 541,
+          "extension": ".md",
+          "type": "file"
+        },
+        {
+          "path": "src/assets/notes/Node/模块.md",
+          "name": "模块.md",
+          "size": 4587,
+          "extension": ".md",
+          "type": "file"
+        }
+      ],
+      "size": 11430,
+      "type": "directory"
+    },
+    {
+      "path": "src/assets/notes/网络",
+      "name": "网络",
+      "children": [
+        {
+          "path": "src/assets/notes/网络/网络.md",
+          "name": "网络.md",
+          "size": 8751,
+          "extension": ".md",
+          "type": "file"
+        }
+      ],
+      "size": 8751,
       "type": "directory"
     }
   ],
-  "size": 75190,
+  "size": 113278,
   "type": "directory"
 }

@@ -7,7 +7,7 @@
     </a>
     <div *ngIf="item.type === 'directory'">
       <mat-list-item appToggle [isOn]="isActiveGroup(item)" [class.active]="isActiveGroup(item)" #toggle="appToggle">
-        <a class="title" [title]="item.name" [routerLink]="['/notes', item.name]">{{item.name}}</a>
+        <a class="title" [title]="item.name">{{item.name}}</a>
         <mat-icon *ngIf="toggle.isOn" (click)="toggle.toggle()">expand_more</mat-icon>
         <mat-icon *ngIf="toggle.isOff" (click)="toggle.toggle()">chevron_right</mat-icon>
       </mat-list-item>

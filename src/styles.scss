@@ -25,3 +25,32 @@ ul {
   font-weight: 400;
   color: #444;
 }
+
+.d-sticky {
+  position: sticky;
+  top: 53px;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.mat-drawer-container {
+  overflow: visible !important;
+
+  mat-sidenav {
+    overflow: visible !important;
+
+    .mat-drawer-inner-container {
+      overflow: visible !important;
+    }
+  }
+
+  mat-sidenav-content {
+    overflow: visible !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .d-sticky {
+    top: 89px;
+  }
+}

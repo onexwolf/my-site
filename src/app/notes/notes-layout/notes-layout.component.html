@@ -9,7 +9,9 @@
 <mat-sidenav-container>
   <mat-sidenav #drawer class="sidenav" [attr.role]="isHandset ? 'dialog' : 'navigation'"
     [mode]="isHandset ? 'over' : 'side'" [opened]="!isHandset" (click)="tryToClose(drawer)">
-    <app-nav-node [data]="notes"></app-nav-node>
+    <div class="d-sticky">
+      <app-nav-node [data]="notes"></app-nav-node>
+    </div>
   </mat-sidenav>
   <mat-sidenav-content>
     <main>

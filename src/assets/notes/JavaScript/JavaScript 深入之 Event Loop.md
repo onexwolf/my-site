@@ -4,7 +4,7 @@ JavaScript 中任务分为两种，**同步任务**和**异步任务**。
 
 JavaScript 执行机制如下：
 
-<img src="../images/IMG_0015.PNG" style="zoom: 50%;" />
+<img src="./../../assets/notes/images/IMG_0015.PNG" style="zoom: 50%;" />
 
 - 同步任务和异步任务进入不同的执行场所，同步的进入主线程，异步的进入 Event Table 并注册函数。
 - 当指定的事情完成时，Event Table 会将这个函数移入 Event Queue。
@@ -19,7 +19,7 @@ Event Queue 分成两种，宏任务和微任务，两种任务分别对应以�
 
 - 微任务：promise，process.nextClick
 
-<img src="../images/IMG_0016.PNG" style="zoom:50%;" />
+<img src="../../../assets/notes/images/IMG_0016.PNG" style="zoom:50%;" />
 
 所以更详细的执行机制如下：
 
