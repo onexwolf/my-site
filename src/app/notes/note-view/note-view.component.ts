@@ -17,6 +17,7 @@ export class NoteViewComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
       this.noteUrl = findNoteByName(params.get('id')).path.replace('src/', '/');
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
     });
   }
 
